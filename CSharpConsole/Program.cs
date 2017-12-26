@@ -15,25 +15,33 @@ namespace CSharpConsole
             // Maraba.Selamla();
             // Maraba.Küfret();
 
-            var matdersi = new MatDersi();
-          
-            Console.Write("toplaması : " + matdersi.Topla() );
-            Console.ReadLine();
+            //var matdersi = new MatDersi();
 
-            Console.Write("çıkartması : " + matdersi.Çıkar());
-            Console.ReadLine();
+            //Console.Write("toplaması : " + matdersi.Topla() );
+            //Console.ReadLine();
 
-            Console.Write("çarpması : " + matdersi.Çarp());
-            Console.ReadLine();
+            //Console.Write("çıkartması : " + matdersi.Çıkar());
+            //Console.ReadLine();
 
-            Console.Write("bölmesi : " + matdersi.böl());
-            Console.ReadLine();
-            Console.Clear();
-            
+            //Console.Write("çarpması : " + matdersi.Çarp());
+            //Console.ReadLine();
 
-            matdersi.değerlendirme();
+            //Console.Write("bölmesi : " + matdersi.böl());
+            //Console.ReadLine();
+            //Console.Clear();
+
+
+            //matdersi.değerlendirme();
+            //Console.ReadKey();
+
+            var geo = new Geo();
+            Console.WriteLine("kare alanı : " + geo.kareAlanı());
             Console.ReadKey();
 
+            Console.Write("dikdörtgenin alanı :" + geo.dikdörtgen());
+            Console.ReadKey();
+
+            
             
 
            

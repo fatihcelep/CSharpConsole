@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dersler\Geo.cs" />
     <Compile Include="Dersler\MatDersi.cs" />
     <Compile Include="Dersler\MerhabaDunyaDersi.cs" />
     <Compile Include="Program.cs" />
