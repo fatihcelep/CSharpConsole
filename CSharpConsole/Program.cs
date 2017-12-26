@@ -29,7 +29,12 @@ namespace CSharpConsole
             Console.Write("bölmesi : " + matdersi.böl());
             Console.ReadLine();
             Console.Clear();
+            
 
+            matdersi.değerlendirme();
+            Console.ReadKey();
+
+            
 
            
             

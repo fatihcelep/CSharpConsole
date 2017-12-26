@@ -11,9 +11,9 @@ namespace CSharpConsole.Dersler
         public int Topla()
         {
 
-            Console.Write("a yı girin");
+            Console.Write("a yı girin : ");
             int a = Convert.ToInt16(Console.ReadLine());
-            Console.Write("b yı girin");
+            Console.Write("b yı girin : ");
             int b = Convert.ToInt16(Console.ReadLine());
 
 
@@ -30,11 +30,11 @@ namespace CSharpConsole.Dersler
         }
         public int Çarp()
         {
-             Console.Write("e yı girin : ");
+            Console.Write("e yı girin : ");
             int e = Convert.ToInt16(Console.ReadLine());
             Console.Write("f yı girin : ");
             int f = Convert.ToInt16(Console.ReadLine());
-            return e * f; 
+            return e * f;
         }
         public int böl()
         {
@@ -44,19 +44,32 @@ namespace CSharpConsole.Dersler
             int h = Convert.ToInt16(Console.ReadLine());
             return g / h;
         }
-
-        public void dört_işlem()
+        public void değerlendirme()
         {
+            Console.WriteLine("konsol uygulumama 1'den 10'a kadar puan verin  : ");
+            int puan = Convert.ToInt16(Console.ReadLine());
+
+            if (10 >= puan && puan > 7  )
+
+
+            {
+                Console.WriteLine("teşekkürler :D");
+                if (puan < 7 && 4 > puan && 10 > puan) 
+                {
+                    Console.Write("kendimizi geliştirmeye çalışacağız !");
+                }
+                else
+                {
+                    Console.WriteLine("kötü bulduğunuz kısımları yazın lütfen :(");
+                    string bed = Convert.ToString(Console.ReadLine());
+
+                }
+
+            }
+                     
            
-            böl();
 
-            
-        }
-        
-
-        
-
-            
         }
     }
+}
 
